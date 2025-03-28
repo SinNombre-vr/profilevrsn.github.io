@@ -58,7 +58,11 @@
 
 	li {list-style: none; }
 
+	.body2 {
+		background-image: url(https://pbs.twimg.com/media/GZeQ5_zXQAAGOnU.jpg); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; 
+	}
 	redondo {border-radius: 50%; width: 200px; height: 200px}
+
 
 	img, ion-icon, a, button, time, span { display: block; }
 
@@ -86,9 +90,10 @@
 
 	html { font-family: var(--ff-poppins); }
 
-	body { background: var(--smoky-black); }
+	body { background: var(--smoky-black);}
 
 	main {
+		opacity: 1;
 	    margin: 15px 12px;
 	    margin-bottom: 75px;
 	    min-width: 259px;
@@ -1183,6 +1188,7 @@
 	        .testimonials-avatar-box img { width: 80px; }
 
 	    .testimonials-item-title {
+
 	        margin-bottom: 10px;
 	        margin-left: 95px;
 	    }
@@ -1466,6 +1472,90 @@
 	    .timeline-text { max-width: 700px; }
 	}
 </style>
+<style type="text/css">
+	.titlefriend {
+	  text-transform: uppercase;
+	  letter-spacing: .5em;
+	  display: inline-block;
+	  border-width: 4px 0;
+	  padding: 1.5em 0em;
+	  position: absolute;
+	  top: 63%;
+	  left: 96.4%;
+	  margin: 0 0 0 -20em;
+	  
+	  .texto {
+
+	    font: 700 2em/1 "Oswald", sans-serif;
+	    letter-spacing: 0;
+	    padding: .25em 0 .325em;
+	    display: block;
+	    margin: 0 auto;
+	    text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+	/* Clip Background Image */
+
+	    background: url(Fotos/Fondo.png) repeat-y;
+	    -webkit-background-clip: text;
+	    background-clip: text;
+
+	/* Animate Background Image */
+
+	    -webkit-text-fill-color: transparent;
+	    -webkit-animation: aitf 80s linear infinite;
+
+	/* Activate hardware acceleration for smoother animations */
+
+	    -webkit-transform: translate3d(0,0,0);
+	    -webkit-backface-visibility: hidden;
+
+	  }
+	}
+	.titlefriendtitle {
+	  text-transform: uppercase;
+	  letter-spacing: .5em;
+	  display: inline-block;
+	  border-width: 4px 0;
+	  padding: 1.5em 0em;
+	  position: absolute;
+	  top: 61%;
+	  left: 59%;
+	  margin: 0 0 0 -20em;
+	  
+	  .textotitle {
+
+	    font: 700 2em/1 "Oswald", sans-serif;
+	    letter-spacing: 0;
+	    padding: .25em 0 .325em;
+	    display: block;
+	    margin: 0 auto;
+	    text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+	/* Clip Background Image */
+
+	    background: url(Fotos/Fondo.png) repeat-y;
+	    -webkit-background-clip: text;
+	    background-clip: text;
+
+	/* Animate Background Image */
+
+	    -webkit-text-fill-color: transparent;
+	    -webkit-animation: aitf 80s linear infinite;
+
+	/* Activate hardware acceleration for smoother animations */
+
+	    -webkit-transform: translate3d(0,0,0);
+	    -webkit-backface-visibility: hidden;
+
+	  }
+	}
+	/* Animate Background Image */
+
+	@-webkit-keyframes aitf {
+	  0% { background-position: 0% 50%; }
+	  100% { background-position: 100% 50%; }
+	}
+</style>
 
 <html lang="en">
 	<head>
@@ -1475,8 +1565,9 @@
 	    <link rel="stylesheet" href="style.css">
 	    <link rel="shortcut icon" href="https://assets.vrchat.com/www/brand/vrchat-logo-white-transparent-crop-background.png" type="image/x-icon">
 	</head>
+	<body class="body2"></body>
 	<body>
-	    <main>
+	    <main class="Fondo">
 	        <aside class="sidebar " data-sidebar>
 	            <div class="sidebar-info">
 	                <figure class="avatar-box">
@@ -1620,8 +1711,183 @@
 	                        </li>
 	                    </ul>
 	                </section>
+
+	                <section class="testimonials">
+
+	                    <h3 class="h3 testimonials-title">
+	                    	<p class="titlefriendTitle">
+	                    		<span class="textoTitle">
+	                    			Best Friends
+	                    		</span>
+	                    	</p>
+	                    </h3>
+
+	                    <ul class="testimonials-list has-scrollbar">
+
+	                        <li class="testimonials-item">
+
+	                            <div class="content-card" data-testimonials-item>
+
+	                                <figure class="testimonials-avatar-box">
+
+	                                </figure>
+
+	                                <h4 class="h4 testimonials-item-title" data-testimonials-title class="glitch" data-text="GLITCH" class=".TEXT" class=".TEXT2">
+										<p class="titlefriend">
+										  <span class="texto">
+										    Pamelachuu
+										  </span>
+										</p>
+	                                </h4>
+
+	                                <div class="testimonials-text" data-testimonials-text>
+
+	                                    <img src="Fotos/1.png" width="350">
+
+	                                </div>
+
+	                            </div>
+
+	                        </li>
+
+	                        <li class="testimonials-item">
+
+	                            <div class="content-card" data-testimonials-item>
+
+	                                <figure class="testimonials-avatar-box">
+
+	                                </figure>
+
+	                                <h4 class="h4 testimonials-item-title" data-testimonials-title class="glitch" data-text="GLITCH" class=".TEXT" class=".TEXT2">
+										<p class="titlefriend">
+										  <span class="texto">
+										    Ｎｅｉｔ シ
+										  </span>
+										</p>
+	                                </h4>
+
+	                                <div class="testimonials-text" data-testimonials-text>
+
+	                                    <img src="Fotos/NEat.png" width="350">
+
+	                                </div>
+
+	                            </div>
+
+	                        </li>
+
+	                        <li class="testimonials-item">
+
+	                            <div class="content-card" data-testimonials-item>
+
+	                                <figure class="testimonials-avatar-box">
+
+	                                </figure>
+
+	                                <h4 class="h4 testimonials-item-title" data-testimonials-title class="glitch" data-text="GLITCH" class=".TEXT" class=".TEXT2">
+										<p class="titlefriend">
+										  <span class="texto">
+										    controljcarafi
+										  </span>
+										</p>
+	                                </h4>
+
+	                                <div class="testimonials-text" data-testimonials-text>
+
+	                                    <img src="Fotos/Control.png" width="350">
+
+	                                </div>
+
+	                            </div>
+
+	                        </li>
+
+	                        <li class="testimonials-item">
+
+	                            <div class="content-card" data-testimonials-item>
+
+	                                <figure class="testimonials-avatar-box">
+
+	                                </figure>
+
+	                                <h4 class="h4 testimonials-item-title" data-testimonials-title class="glitch" data-text="GLITCH" class=".TEXT" class=".TEXT2">
+										<p class="titlefriend">
+										  <span class="texto">
+										    SugarLoliUwU
+										  </span>
+										</p>
+	                                </h4>
+
+	                                <div class="testimonials-text" data-testimonials-text>
+
+	                                    <img src="Fotos/Sugar.png" width="350">
+
+	                                </div>
+
+	                            </div>
+
+	                        </li>
+
+	                        <li class="testimonials-item">
+
+	                            <div class="content-card" data-testimonials-item>
+
+	                                <figure class="testimonials-avatar-box">
+
+	                                </figure>
+
+	                                <h4 class="h4 testimonials-item-title" data-testimonials-title class="glitch" data-text="GLITCH" class=".TEXT" class=".TEXT2">
+										<p class="titlefriend">
+										  <span class="texto">
+										    Alairen
+										  </span>
+										</p>
+	                                </h4>
+
+	                                <div class="testimonials-text" data-testimonials-text>
+
+	                                    <img src="Fotos/Alairen.png" width="350">
+
+	                                </div>
+
+	                            </div>
+
+	                        </li>
+
+							<li class="testimonials-item">
+
+	                            <div class="content-card" data-testimonials-item>
+
+	                                <figure class="testimonials-avatar-box">
+
+	                                </figure>
+
+	                                <h4 class="h4 testimonials-item-title" data-testimonials-title class="glitch" data-text="GLITCH" class=".TEXT" class=".TEXT2">
+										<p class="titlefriend">
+										  <span class="texto">
+										    XmatrixX97
+										  </span>
+										</p>
+	                                </h4>
+
+	                                <div class="testimonials-text" data-testimonials-text>
+
+	                                    <img src="Fotos/Matrix.png" width="350">
+
+	                                </div>
+	                                
+	                            </div>
+
+	                        </li>
+	                    </ul>
+
+	                </section>
+
 	            </article>
+
 	        </div>
+
+
 	    </main>
 
 	    <script src="main.js"></script>
